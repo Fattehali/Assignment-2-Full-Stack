@@ -4,18 +4,16 @@
 
 The application has the following services: 
 
-| Service | Description | Github Repo |
-| --- | --- | --- |
-| `store-front` | Web app for customers to place orders (Vue.js) | [store-front-L8](https://github.com/ramymohamed10/store-front-L8) |
-| `store-admin` | Web app used by store employees to view orders in queue and manage products (Vue.js) | [store-admin-L8](https://github.com/ramymohamed10/store-admin-L8) |
-| `order-service` | This service is used for placing orders (Javascript) | [order-service-L8](https://github.com/ramymohamed10/order-service-L8) |
-| `product-service` | This service is used to perform CRUD operations on products (Rust) | [product-service-L8](https://github.com/ramymohamed10/product-service-L8) |
-| `makeline-service` | This service handles processing orders from the queue and completing them (Golang) | [makeline-service-L8](https://github.com/ramymohamed10/makeline-service-L8) |
-| `ai-service` | Optional service for adding generative text and graphics creation (Python) | [ai-service-L8](https://github.com/ramymohamed10/ai-service-L8) |
-| `rabbitmq` | RabbitMQ for an order queue | [rabbitmq](https://github.com/docker-library/rabbitmq) |
-| `mongodb` | MongoDB instance for persisted data | [mongodb](https://github.com/docker-library/mongo) |
-| `virtual-customer` | Simulates order creation on a scheduled basis (Rust) | [virtual-customer-L8](https://github.com/ramymohamed10/virtual-customer-L8) |
-| `virtual-worker` | Simulates order completion on a scheduled basis (Rust) | [virtual-worker-L8](https://github.com/ramymohamed10/virtual-worker-L8) |
+   | Service            | Description                                | Github Repo                                                                 |
+   |--------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+   | `store-front`      | Web app for customers to place orders      | [store-front-bestbuy](https://github.com/Fattehali/store-front-bestbuy.git)          |
+   | `store-admin`      | Web app for store employees                | [store-admin-bestbuy](https://github.com/Fattehali/store-admin-bestbuy.git)           |
+   | `order-service`    | Handles order placement                    | [order-service-bestbuy](https://github.com/Fattehali/order-service-bestbuy.git)       |
+   | `product-service`  | Handles CRUD operations on products        | [product-service-bestbuy](https://github.com/Fattehali/product-service-bestbuy.git)   |
+   | `makeline-service` | Processes and completes orders             | [makeline-service-bestbuy](https://github.com/Fattehali/makeline-service-bestbuy.git) |
+   | `ai-service`       | AI-based product descriptions and images   | [ai-service-bestbuy](https://github.com/Fattehali/ai-service-bestbuy.git)             |
+   | `virtual-customer` | Simulates customer order creation          | [virtual-customer-bestbuy](https://github.com/Fattehali/virtual-customer-bestbuy.git) |
+   | `virtual-worker`   | Simulates order completion                 | [virtual-worker-bestbuy](https://github.com/Fattehali/virtual-worker-bestbuy.git)     |
 
 
 ![Logical Application Architecture Diagram](assets/Algonquin%20Pet%20Store%20On%20Steroids.png)

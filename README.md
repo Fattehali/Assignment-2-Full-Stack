@@ -111,7 +111,7 @@ Step 1: Install `kubectl`
 
    - Copy the command shown in the portal for configuring `kubectl` (it will look something like this):
      ```
-     az aks get-credentials --resource-group AlgonquinPetStoreRG --name AlgonquinPetStoreCluster
+     az aks get-credentials --resource-group BestBuy --name BestBuy
      ```
       **Understanding the Command:**
       - The command `az aks get-credentials` pulls the necessary configuration files to enable `kubectl` to access your AKS cluster. Here’s a breakdown:
@@ -153,12 +153,12 @@ To enable AI-generated product descriptions and image generation features, you w
 
 2. **Deploy GPT-4**:
    - Go to the **Model Deployments** section and click **Add Deployment**.
-   - Choose **GPT-4** as the model and provide a deployment name (e.g., `gpt-4-deployment`).
+   - Choose **GPT-4** as the model and provide a deployment name (e.g., `gpt-4`).
    - Set the deployment configuration as required and deploy the model.
 
 3. **Deploy DALL-E 3**:
    - Repeat the same process to deploy **DALL-E 3**.
-   - Use a descriptive deployment name (e.g., `dalle-3-deployment`).
+   - Use a descriptive deployment name (e.g., `dall-e-3`).
 
 4. **Note Configuration Details**:
    - Once deployed, note down the following details for each model:
@@ -326,26 +326,9 @@ Explanation: The db.orders.find() command fetches and displays all documents (re
 - Explore the databases and collections used by the application.
 - Query the orders collection to examine the data structure and stored records.
 
-## Lab Tasks: Build, Push, and Deploy Your Own Docker Images
+## Lab Tasks: Build, Push, and Deploy Docker Images
 
-You are asked to fork the necessary service repositories, build Docker images for each service, push them to your own Docker Hub account, and update the Kubernetes configuration file to use your images.
 
----
 
-### **Step 1: Fork the Repositories**
-
-1. **Fork Each Repository**:
-   - Visit the GitHub repositories for the services listed below and fork them into your own GitHub account:
-   
-   | Service            | Description                                | Github Repo                                                                 |
-   |--------------------|--------------------------------------------|-----------------------------------------------------------------------------|
-   | `store-front`      | Web app for customers to place orders      | [store-front-bestbuy](https://github.com/Fattehali/store-front-bestbuy.git)          |
-   | `store-admin`      | Web app for store employees                | [store-admin-bestbuy](https://github.com/Fattehali/store-admin-bestbuy.git)           |
-   | `order-service`    | Handles order placement                    | [order-service-bestbuy](https://github.com/Fattehali/order-service-bestbuy.git)       |
-   | `product-service`  | Handles CRUD operations on products        | [product-service-bestbuy](https://github.com/Fattehali/product-service-bestbuy.git)   |
-   | `makeline-service` | Processes and completes orders             | [makeline-service-bestbuy](https://github.com/Fattehali/makeline-service-bestbuy.git) |
-   | `ai-service`       | AI-based product descriptions and images   | [ai-service-bestbuy](https://github.com/Fattehali/ai-service-bestbuy.git)             |
-   | `virtual-customer` | Simulates customer order creation          | [virtual-customer-bestbuy](https://github.com/Fattehali/virtual-customer-bestbuy.git) |
-   | `virtual-worker`   | Simulates order completion                 | [virtual-worker-bestbuy](https://github.com/Fattehali/virtual-worker-bestbuy.git)     |
 
 

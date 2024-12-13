@@ -25,7 +25,7 @@ You can use the kubernetes YAML files provided in the [Deployment Files](./Deplo
 
 ## Step 1: Clone the Algonquin Pet Store Repository
 
-To begin, clone the [**Algonquin Pet Store (On Steroids)**](https://github.com/ramymohamed10/algonquin-pet-store-on-steroids) repository, which contains all necessary deployment files.
+To begin, clone the [**Assignment-2-Full-Stack)**](git clone https://github.com/Fattehali/Assignment-2-Full-Stack.git) repository, which contains all necessary deployment files.
 
  **Review the Deployment Files**:
    - Navigate to the `Deployment Files` folder
@@ -36,7 +36,7 @@ To begin, clone the [**Algonquin Pet Store (On Steroids)**](https://github.com/r
 Create an AKS cluster with two worker nodes for this exercise. For this step, you can refer to: [Lab 6](https://github.com/ramymohamed10/Lab6_24F_CST8915)
 
 ## Step 3: Set Up the AI Backing Services
-To enable AI-generated product descriptions and image generation features, you will deploy the required **Azure OpenAI Services** for GPT-4 (text generation) and DALL-E 3 (image generation). This step is essential to configure the **AI Service** component in the Algonquin Pet Store application.
+To enable AI-generated product descriptions and image generation features, you will deploy the required **Azure OpenAI Services** for GPT-4 (text generation) and DALL-E 3 (image generation). This step is essential to configure the **AI Service** component in the BestBuy.
 
 ### Task 1: Create an Azure OpenAI Service Instance
 
@@ -200,7 +200,7 @@ kubectl get pods
 - Login with the default credentials (`username`/`password`).
 
 ### MongoDB Shell Access and Database Exploration
-In this section, you will use the MongoDB shell to interact with the `orderdb` database, which stores order information for the Algonquin Pet Store application. Follow the steps below to connect to the MongoDB pod and explore its contents.
+In this section, you will use the MongoDB shell to interact with the `orderdb` database, which stores order information for BestBuy. Follow the steps below to connect to the MongoDB pod and explore its contents.
 
 #### **1- Access the MongoDB Shell**
 Run the following command to connect to the MongoDB shell inside the running MongoDB pod:

@@ -15,6 +15,22 @@ The application has the following services:
    | `virtual-customer` | Simulates customer order creation          | [virtual-customer-bestbuy](https://github.com/Fattehali/virtual-customer-bestbuy.git) |
    | `virtual-worker`   | Simulates order completion                 | [virtual-worker-bestbuy](https://github.com/Fattehali/virtual-worker-bestbuy.git)     |
 
+## Docker repositories
+
+   - **Table of Docker Images**:  
+     - A table listing all Docker images you created, including their names and links to their Docker Hub repositories.  
+     - Example:
+       | **Service**         | **Docker Image Link**                     |
+       |---------------------|-------------------------------------------|
+       | Store-Front         | `fattehali/store-front-bb`                       |
+       | Store-admin         | `fattehali/store-admin-bb`                       |
+       | Order-service         | `fattehali/order-service`                       |
+       | Product-service        | `fattehali/product-service`                       |
+       | Makeline-service         | `fattehali/makeline-service`                       |
+       | AI-service         | `fattehali/ai-service-bb`                        |
+       | virtual-customer      | `fattehali/virtual-customer`                       |
+       | virtual-worker        | `fattehali/virtual-worker`                       |
+    
 ## Architecture Diagram
 
 ![Logical Application Architecture Diagram](assets/Algonquin%20Pet%20Store%20On%20Steroids.png)
@@ -423,4 +439,9 @@ Explanation: The db.orders.find() command fetches and displays all documents (re
    - Use kubectl commands to check the deployment status:
 `kubectl get pods` and `kubectl get services`
 
+- **Any issues or limitations in the implementation (Optional)**
 
+<img width="1440" alt="Screenshot 2024-12-12 at 2 35 35 AM" src="https://github.com/user-attachments/assets/e2230382-a8a8-48e4-9b4c-1b338afaf960" />
+<img width="1440" alt="Screenshot 2024-12-10 at 1 10 14 PM" src="https://github.com/user-attachments/assets/82f1c26e-f291-407d-972c-420bda15a613" />
+
+  

@@ -1,7 +1,7 @@
 # Assignment 2 : Full-stack Cloud-native Development: Deploying and Managing the BestBuy  
 
-## Architecture
 
+## Architecture
 The application has the following services: 
 
    | Service            | Description                                | Github Repo                                                                 |
@@ -15,6 +15,7 @@ The application has the following services:
    | `virtual-customer` | Simulates customer order creation          | [virtual-customer-bestbuy](https://github.com/Fattehali/virtual-customer-bestbuy.git) |
    | `virtual-worker`   | Simulates order completion                 | [virtual-worker-bestbuy](https://github.com/Fattehali/virtual-worker-bestbuy.git)     |
 
+## Architecture Diagram
 
 ![Logical Application Architecture Diagram](assets/Algonquin%20Pet%20Store%20On%20Steroids.png)
 

@@ -22,14 +22,14 @@ The application has the following services:
      - Example:
        | **Service**         | **Docker Image Link**                     |
        |---------------------|-------------------------------------------|
-       | Store-Front         | `fattehali/store-front-bb`                       |
-       | Store-admin         | `fattehali/store-admin-bb`                       |
-       | Order-service         | `fattehali/order-service`                       |
-       | Product-service        | `fattehali/product-service`                       |
-       | Makeline-service         | `fattehali/makeline-service`                       |
-       | AI-service         | `fattehali/ai-service-bb`                        |
-       | virtual-customer      | `fattehali/virtual-customer`                       |
-       | virtual-worker        | `fattehali/virtual-worker`                       |
+       | Store-Front         | `https://hub.docker.com/repository/docker/fattehali/store-front-bb/general`                       |
+       | Store-admin         | `https://hub.docker.com/repository/docker/fattehali/store-admin-bb`                       |
+       | Order-service         | `https://hub.docker.com/repository/docker/fattehali/order-service`                       |
+       | Product-service        | `https://hub.docker.com/repository/docker/fattehali/product-service`                       |
+       | Makeline-service         | `https://hub.docker.com/repository/docker/fattehali/makeline-service`                       |
+       | AI-service         | `https://hub.docker.com/repository/docker/fattehali/ai-service-bb`                        |
+       | virtual-customer      | `https://hub.docker.com/repository/docker/fattehali/virtual-customer`                       |
+       | virtual-worker        | `https://hub.docker.com/repository/docker/fattehali/virtual-worker`                       |
     
 ## Architecture Diagram
 

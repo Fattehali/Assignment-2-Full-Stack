@@ -242,8 +242,18 @@ To enable AI-generated product descriptions and image generation features, you w
 
 ## Step 5: Deploy the Application
    ```bash
+   kubectl apply -f store-front-deployment.yaml
+   kubectl apply -f store-admin-deployment.yaml
+   kubectl apply -f order-service-deployment.yaml
+   kubectl apply -f product-service-deployment.yaml
+   kubectl apply -f makeline-service-deployment.yaml
+   kubectl apply -f ai-service-deployment.yaml
+   ```
+**Or we can execute keep all deployment files in single file and run below command**
+   ```bash
    kubectl apply -f aps-all-in-one.yaml
    ```
+
 ### Validate the Deployment
 - Check Pods and Services:
    ```bash

@@ -31,6 +31,10 @@ The application has the following services:
        | virtual-customer      | `https://hub.docker.com/repository/docker/fattehali/virtual-customer`                       |
        | virtual-worker        | `https://hub.docker.com/repository/docker/fattehali/virtual-worker`                       |
     
+## Demo Link:
+
+https://algonquinlivecom-my.sharepoint.com/:v:/g/personal/suna0011_algonquinlive_com/EXkvt_Mp0hhDm3qZghUqu3MBBAWBv-nvNCc0rPf_7zIZvQ
+
 ## Architecture Diagram
 
 ![Logical Application Architecture Diagram](assets/Algonquin%20Pet%20Store%20On%20Steroids.png)
